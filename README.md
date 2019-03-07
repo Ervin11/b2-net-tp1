@@ -1,4 +1,5 @@
 
+
 # TP1 - Remise dans le bain
 ---  
 
@@ -135,6 +136,7 @@ connect: Network is unreachable
 
 **Capture réseau**
 
+[Capture de requête ARP + Ping de client 1 vers client 2](https://github.com/Ervin11/b2-net-tp1/blob/master/Captures/ping.pcap)
 
 ```sh
 # Shell 1
@@ -156,6 +158,8 @@ tcpdump: listening on enp0s8, link-type EN10MB (Ethernet), capture size 262144 b
 ```
 
 #### Communication simple entre 2 machines
+
+[Capture de requête ARP + Ping de client 1 vers client 2](https://github.com/Ervin11/b2-net-tp1/blob/master/Captures/ping-2.pcap)
 
 ```sh
 # Shell 1
@@ -189,7 +193,9 @@ success
 
 **Netcat**
 
-UDP
+***UDP***
+
+[Capture UDP](https://github.com/Ervin11/b2-net-tp1/blob/master/Captures/nc-udp.pcap)
 
 ```sh
 # Client 1
@@ -211,7 +217,9 @@ yes
 yo
 ```
 
-TCP
+***TCP***
+
+[Capture TCP](https://github.com/Ervin11/b2-net-tp1/blob/master/Captures/nc-tcp.pcap)
 
 ```sh
 # Client 1
@@ -232,6 +240,7 @@ tcpdump: listening on enp0s8, link-type EN10MB (Ethernet), capture size 262144 b
 yes
 yo
 ```
+[Capture Firewall](https://github.com/Ervin11/b2-net-tp1/blob/master/Captures/firewall.pcap)
 
 #### Routage statique et simple
 
